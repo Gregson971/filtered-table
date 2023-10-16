@@ -2,7 +2,8 @@
 
 ## Description du projet
 
-En utilisant le jeu de données fournies, vous créerez un module JavaScript qui affichera les datas sous forme de tableau HTML.
+Créer un module JavaScript qui affiche les datas sous forme de tableau HTML.
+
 Le tableau devra avoir au moins 7 colonnes dont : Nom, Prénom, Âge, Couleur des yeux et email.
 Le tableau devra pouvoir être filtré grâce à des paramètre en query `?` dans l'URL.
 
