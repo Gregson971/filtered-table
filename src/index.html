@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Project - Filtered table</title>
+</head>
+<body>
+    <h1>Project - Filtered table</h1>
+
+    <div class="filter-menu">
+        <div>
+            <label for="eyeColorFilter">Filtrer par Couleur des yeux:</label>
+            <select id="eyeColorFilter">
+                <option value="">Tous</option>
+                <option value="blue">Bleu</option>
+                <option value="brown">Marron</option>
+                <option value="green">Vert</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="ageRangeFilter">Filtrer par Tranche d'âge:</label>
+            <select id="ageRangeFilter">
+                <option value="">Tous</option>
+                <option value="20-25">20-25 ans</option>
+                <option value="26-30">26-30 ans</option>
+                <option value="31-35">31-35 ans</option>
+                <option value="36-41">36-41 ans</option>
+            </select>
+        </div>
+        
+        <button id="applyFilters">Appliquer les Filtres</button>
+    </div>
+
+    <div id="container"></div> 
+</body>
+
+</html>
