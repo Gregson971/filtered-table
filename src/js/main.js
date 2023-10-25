@@ -6,6 +6,7 @@ import usersData from '../data/datas.json';
 
 import '../css/style.scss';
 
+// Fonction principale
 function main() {
   const usersContainer = document.getElementById('container');
   const eyeColorFilter = document.getElementById('eyeColorFilter');
