@@ -1,3 +1,4 @@
+// Filtrer les données en fonction des paramètres de l'URL
 const filterData = (userData) => {
   const urlParams = new URLSearchParams(window.location.search);
   const eyeColor = urlParams.get('eyeColor');

@@ -1,3 +1,4 @@
+// Création du tableau
 const createTable = (datas) => {
   const table = document.createElement('table');
 
@@ -7,6 +8,7 @@ const createTable = (datas) => {
   return table;
 };
 
+// Création de l'en-tête du tableau
 const createTableHeader = () => {
   const tableHeader = document.createElement('thead');
 
@@ -25,6 +27,7 @@ const createTableHeader = () => {
   return tableHeader;
 };
 
+// Création du corps du tableau
 const createTableBody = (datas) => {
   const tableBody = document.createElement('tbody');
 

@@ -1,3 +1,4 @@
+// Mettre à jour les paramètres de l'URL en fonction des filtres
 const updateURLParams = (eyeColorFilter, ageRangeFilter) => {
   const url = new URL(window.location);
   const params = new URLSearchParams(url.search);
